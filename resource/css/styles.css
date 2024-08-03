@@ -1,0 +1,365 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #cff7c2; */
+}
+
+body{
+  font-family: "Noto Serif JP", serif;
+}
+
+.section2{
+  background-color: #ead1ef;
+  font-family: "Noto Serif JP", serif;
+}
+
+.scrolled {
+  background-color: whitesmoke !important; /* Change to your desired color */
+  border-bottom: 3px solid rgb(248, 75, 156);
+}
+
+.dropdown-menu{
+  background-color: rgb(245, 245, 245, 0.9);
+  color: white !important; 
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 0; /* remove the gap between elements */
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+}
+
+.menu-bar {
+  position: fixed; /* Makes the menu bar stay fixed at the top */
+  background-color: transparent;
+  width: 100%; /* Initial background color */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+  z-index: 1000; /* Ensures it stays on top of other elements */
+  height: 80px;
+}
+
+.menu-bar .welcome{
+  margin-top: 3%;
+  font-size: 30px;
+}
+
+
+.welcome {
+  font-family: Tiro Devanagari Hindi, serif;
+  text-align: center;
+  /* margin-bottom: 80%; */
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 4%;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  color: rgb(48, 30, 30);
+  transform: translateY(-50%);
+}
+
+.d-block{
+  height: 100vh;
+  width: 100%;
+  margin-right: 0%;
+
+  /* margin-left: 0%%;
+  padding-top: 0%; */
+  /* overflow: hidden;
+  size: cover;
+  background-size: cover;
+  background-position: center; */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 38%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Noto Serif JP", serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  /* line-height: 145%; */
+}
+
+.big-icons{
+  font-size: 100%;
+  color: rgb(196, 160, 69);
+  /* margin-left: 0; */
+}
+
+hr{
+  border: none;
+  border-top: 1px solid black;
+  margin: 20px;
+}
+
+.left-navs {
+  position: absolute;
+  right: 70%;
+  /* padding-left: 20%; */
+  margin-top: 1.2%;
+  display: inline-block;
+  list-style: none;
+}
+
+.right-navs {
+  position: absolute;
+  left: 70%;
+  margin-top: 1.2%;
+  display: inline-block;
+  list-style: none;
+}
+.nav{
+  /* height: 80vh;
+  border-top: 20%;
+  padding-top: 3%; */
+  list-style: none;
+}
+
+.nav li{
+  display: inline-block;
+  list-style: none;
+}
+
+.slider-navs li{
+  display: inline-block;
+}
+.slides{
+  margin-right: 0%;
+  margin-left: 0%;
+  height: 80vh;
+  width: 100%;
+  padding-top: 3%;
+  overflow: hidden;
+  size: cover;
+}
+.carousel, .carousel-inner, .carousel-item, .carousel-item img {
+  height: 100%;
+}
+
+.main-heading {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-link{
+  color: rgb(48, 30, 30);
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.text-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: #ccc; /* adjust the color to fit your needs */
+}
+
+.left {
+  margin-right: 30px; /* adjust the margin to fit your needs */
+  margin-left: 30px;
+}
+
+.right {
+  margin-left: 30px; /* adjust the margin to fit your needs */
+  margin-right: 30px;
+}
+
+/* .headingLine{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.headingLine span{
+  margin-right: 10px; /* adjust the margin to fit your needs */
+  /* margin-left: 10px; */
+}
+
+ .welcome {
+  margin-top: 020px;
+  padding-top: 0;
+}
+
+ .btn{
+  color: rgb(48, 30, 30);
+ }
+
+ .first-pic{
+    width: 100%;
+    height: 50vh;
+    /* float: right; */
+    margin-top: 70px;
+    border: 4px double black;
+ }
+
+ .code1{
+  text-align: justify;
+  padding-right: 50px;
+ }
+
+ .code2{
+  margin-top: 130px;
+ }
+ 
+ .sub-section2{
+  margin: 10%;
+  text-align: center;
+ }
+
+ .sub-section2 h1{
+  text-align: center;
+  font-size: 300%;
+ }
+ .sub-section2 h2{
+  text-align: center;
+  font-size: 150%;
+  padding-bottom: 20px;
+  font-weight: normal;
+ }
+ .sub-section2 img{
+  text-align: center !important; 
+  width: 20%;
+ }
+ .sub-section2 p{
+  text-align: justify;
+ }
+
+ /* .image-with-lines {
+  text-align: center;
+  margin: 20px 0;
+} */
+
+.image-with-lines .line-left {
+  display: block;
+  width: 40%;
+  height: 2px;
+  float: left;
+  flex: 1;
+  height: 2px;
+  background-color: #000;
+}
+
+.image-with-lines .line-right {
+  display: block;
+  width: 40%;
+  height: 2px;
+  float: right;
+  /* background-color: #000; */
+  /* margin: 10px auto;  */
+  flex: 1;
+  height: 2px;
+  background-color: #000; /* adjust the color to fit your needs */
+}
+
+.tourism-showcase{
+  list-style: none;
+  width: 100%;
+}
+
+.tourism-showcase li .tourism-photo{
+  width: 25%;
+  float: left;
+}
+
+.tourism-showcase li .tourism-photo1{
+  width: 50%;
+  float: left;
+}
+
+.tourism-showcase li .tourism-photo2{
+  width: 25%;
+  float: left;
+}
+
+.tourism-photo{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.tourism-photo img{
+  width: 100%;
+  /* height: auto; */
+  transform: scale(1.15);
+  transition: transform 0.5s;
+  opacity: 0.6;
+  height: 45vh;
+  /* overflow: hidden; */
+}
+
+.tourism-photo1{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.tourism-photo2{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.tourism-photo1 img{
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s;
+  opacity: 0.6;
+  height: 45vh;
+}
+
+.tourism-photo2 img{
+  width: 100%;
+  height: 45vh;
+  overflow: hidden;
+}
+
+.sub-section3{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.tourism-photo img:hover{
+  transform: scale(1.04);
+  opacity: 1;
+}
+.tourism-photo1 img:hover {
+  transform: scale(1.04);
+  opacity: 1;
+}
