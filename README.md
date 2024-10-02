@@ -4,7 +4,7 @@
 A comprehensive website for Rajasthan tourism, showcasing the state's rich cultural heritage, historical landmarks, and natural beauty.
 
 ## Live Demo
-You can view the live demo at [https://dakshthawani.github.io/Tour/](https://dakshthawani.github.io/Tour/).
+You can view the live demo at [https://dakshthawani.github.io/Rajasthan-Tourism-Website/](https://dakshthawani.github.io/Rajasthan-Tourism-Website/).
 
 ## Features
 * Navigation menu with dropdowns for easy access to various sections
